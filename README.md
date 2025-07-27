@@ -655,8 +655,8 @@ Chắc chắn bài viết còn có nhiều thiếu sót, mong các bạn thông 
 
 Liên lạc của tôi:
 
-- Email: nguyencongduc3112@gmail.com
+- Email: nguyenduyphongpc@gmail.com
 
-- Skype: khong_giong_ai
+- Github: nguyenduyphongpc
 
 Xin chân thành cảm ơn!
