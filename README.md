@@ -316,9 +316,9 @@ Các thiết lập ban đầu:
 
 - Bạn cần thiết lập tên và email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.
 	
-> git config --global user.name "Duc NC"
+> git config --global user.name "PHONG ND"
 
-> git config --global user.email nguyencongduc3112@gmail.com
+> git config --global user.email nguyenduyphongpc@gmail.com
 
 - Lựa chọn trình soạn thảo mặc định, có thể là vi, vim, nano,...
 
@@ -408,22 +408,22 @@ Clone repo đó về bằng một trong các cách sau:
 **Linux**
 
 ***SSH:***
-`git clone git@github.com:ducnc92/demo1.git`
+`git clone git@github.com:nguyenduyphongpc/demo1.git`
 
-hoặc: `git clone git@github.com:ducnc92/demo1.git /opt/demo` để clone vào thư mục /opt/demo
+hoặc: `git clone git@github.com:nguyenduyphongpc/demo1.git /opt/demo` để clone vào thư mục /opt/demo
 
 đối với phương pháp này các bạn cần nhập passphrase của ~/.ssh/id_rsa (có thể không cần nếu bạn không đặt passphrase)
 
 ***HTTPS:***
-`git clone https://github.com/ducnc92/demo1.git`
+`git clone https://github.com/nguyenduyphongpc/demo1.git`
 
-hoặc: `git clone https://github.com/ducnc92/demo1.git /opt/demo` để clone vào thư mục /opt/demo
+hoặc: `git clone https://github.com/nguyenduyphongpc/demo1.git /opt/demo` để clone vào thư mục /opt/demo
 
 Để lấy các link SSH, HTTPS này ta làm như sau: Click vào các hyperlink HTTPS hoặc SSH rồi click Copy to clipboard.
 
 <img src=http://i.imgur.com/1DozAVz.png>
 
-Ở đây tôi sử dụng lệnh `git clone git@github.com:ducnc92/demo1.git`
+Ở đây tôi sử dụng lệnh `git clone git@github.com:nguyenduyphongpc/demo1.git`
 
 Lúc này trong thư mục hiện tại sẽ có thêm thư mục demo1 chứa các file trong repo trên github.
 
@@ -441,7 +441,7 @@ Thêm vào nội dung như sau:
 
 ```
 Xin chao!
-Toi la Ducnc.
+Toi la Phongnd.
 ```
 
 Tạo một thư mục mới, chẳng hạn tên là script để chứa các script của tôi.
@@ -477,7 +477,7 @@ hoặc `git commit *` để commit tất cả.
 
 ta nên thêm tham số -m để ghi lại một comment cho hành động đó
  
-> git commit README.md -m "ducnc sua doi" 
+> git commit README.md -m "phongnd sua doi" 
 
 Lúc này các thay đổi của bạn đã được lưu lại trên máy cục bộ. Để đồng bộ lên server Github ta thực hiện lệnh:
 
@@ -512,7 +512,7 @@ Nhưng ở đây cần thêm lệnh `git remote add origin $git-url` trước kh
 
 hoặc `git commit README.md -m noi dung`
 
-> git remote add origin git@github.com:ducnc92/demo2.git
+> git remote add origin git@github.com:nguyenduyphongpc/demo2.git
 
 > git push origin master
 
@@ -597,7 +597,7 @@ Tại mục `Choose the organization’s plan` chọn Open Source để miễn p
 
 Lúc này vào trang cá nhân của bạn sẽ thấy tại mục Organizations có tổ chức mới vừa tạo. Để cấu hình tổ chức này ta click thẳng vào nó.
 
-<img src=http://ducnc.imgur.com/all/>
+<img src=http://phongnd.imgur.com/all/>
 
 Ở đây tôi sẽ tạo một team mới như hình sau:
 
